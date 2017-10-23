@@ -6,6 +6,7 @@
 
 body {
   padding-top: 54px;
+  background: url('../images/misc/bg.jpg') scroll;
 }
 
 @media (min-width: 992px) {
@@ -15,7 +16,6 @@ body {
 }
 
 .masthead {
-  /*background: url('../images/coverphotos/kalari1.jpg') no-repeat center center scroll;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -23,7 +23,6 @@ body {
 }
 
 header.masthead>.overlay {
-  height: 500px;
   padding: 5rem 0;
   text-align: center;
   background: rgba(0, 0, 0, 0.6);
