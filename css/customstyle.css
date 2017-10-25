@@ -25,11 +25,11 @@ header.masthead>.overlay {
 .navbar-logo {
     max-height: 27px;
 }
-a {
+.customlink {
     font: inherit;
     text-decoration: none;
 }
-a:hover {
+.customlink:hover {
     font: inherit;
     text-decoration: none;
 }
