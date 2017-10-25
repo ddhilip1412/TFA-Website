@@ -1,32 +1,35 @@
 body {
-  padding-top: 54px;
+    padding-top: 54px;
 }
-
 @media (min-width: 992px) {
-  body {
-    padding-top: 56px;
-  }
+    body {
+        padding-top: 56px;
+    }
 }
-
-.masthead {
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+/*.masthead {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
-
 header.masthead>.overlay {
-  padding: 5rem 0;
-  text-align: center;
-  background: rgba(0, 0, 0, 0.6);
+    padding: 5rem 0;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
 }
-
 @media (min-width: 992px) {
-  header.masthead>.overlay {
-    padding: 10rem 0;
-  }
-}
-
+    header.masthead>.overlay {
+        padding: 10rem 0;
+    }
+}*/
 .navbar-logo {
-  max-height: 27px;
+    max-height: 27px;
+}
+a {
+    font: inherit;
+    text-decoration: none;
+}
+a:hover {
+    font: inherit;
+    text-decoration: none;
 }
