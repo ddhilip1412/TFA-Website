@@ -6,7 +6,6 @@
 
 body {
   padding-top: 54px;
-  background: url('../images/misc/bg.jpg') scroll;
 }
 
 @media (min-width: 992px) {
