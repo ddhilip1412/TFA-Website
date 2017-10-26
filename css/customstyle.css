@@ -5,6 +5,9 @@ body {
     body {
         padding-top: 56px;
     }
+    li.dropdown:hover > .dropdown-menu {
+        display: block;
+    }
 }
 /*.masthead {
     -webkit-background-size: cover;
@@ -32,4 +35,7 @@ header.masthead>.overlay {
 .customlink:hover {
     font: inherit;
     text-decoration: none;
+}
+.dropdown-menu {
+    border: none;
 }
