@@ -1,12 +1,20 @@
 body {
     padding-top: 54px;
 }
+.navbardropdown {
+    max-height: 250px;
+    overflow-y: scroll;
+}
 @media (min-width: 992px) {
     body {
         padding-top: 56px;
     }
     li.dropdown:hover > .dropdown-menu {
         display: block;
+    }
+    .navbardropdown {
+        max-height: none;
+        overflow-y: auto;
     }
 }
 /*.masthead {
@@ -39,3 +47,4 @@ header.masthead>.overlay {
 .dropdown-menu {
     border: none;
 }
+li.drop
