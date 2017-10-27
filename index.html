@@ -13,6 +13,7 @@
       <link href="css/customstyle.css" rel="stylesheet">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script src="js/tfa-website.js"></script>
    </head>
    <body>
       <!-- Navigation -->
@@ -33,7 +34,7 @@
                   </li>
                   <li class="dropdown nav-item">
                      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Courses<span class="caret"></span></a>
-                     <ul class="dropdown-menu bg-dark navbardropdown">
+                     <ul id="listcourses" class="dropdown-menu bg-dark navbardropdown">
                         <li class="dropdown-header">Dance</li>
                         <li><a class="nav-link" href="#">Barathanatyam</a></li>
                         <li><a class="nav-link" href="#">Odissi</a></li>
@@ -50,7 +51,9 @@
                         <li><a class="nav-link" href="#">Veena</a></li>
                         <li><a class="nav-link" href="#">Sitar</a></li>
                         <li><a class="nav-link" href="#">Flute</a></li>
+                        <div class="dropdownoverlay"></div>
                      </ul>
+
                   </li>
                   <li class="nav-item">
                      <a class="nav-link" href="#">Services</a>
